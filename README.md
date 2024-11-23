@@ -12,4 +12,7 @@ Recent advances in NeRF inpainting have leveraged pretrained diffusion models to
 
 ![pipeline](figs/pipeline.jpg)
 ## Video Result
-[![视频播放](video_result)](https://youtu.be/wnqE3VqRMMQ)
+<video controls>
+  <source src="https://youtu.be/wnqE3VqRMMQ" type="video/mp4">
+  您的浏览器不支持视频标签。
+</video>
