@@ -16,4 +16,6 @@ Recent advances in NeRF inpainting have leveraged pretrained diffusion models to
   <!-- <source src="./demo.mp4" type="video/mp4">  <!-- 更新视频路径 -->
 
 
-<video controls src="demo.mp4" type="video/mp4">
+
+https://github.com/user-attachments/assets/15ed5c3c-6016-44a0-86ba-0409f546e6a6
+
