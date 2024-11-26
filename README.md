@@ -1,6 +1,6 @@
 # <span style="color: yellow;">G</span><span style="color: orange;">B</span>-NeRF: NeRF Inpainting with <span style="color: yellow;">G</span>eometric Diffusion Prior and <span style="color: orange;">B</span>alanced Score
 
-## Features
+
 
 [**📚 Paper**](https://arxiv.org/pdf/2411.15551) | [**🖥️ Video**](https://youtu.be/wnqE3VqRMMQ) | [**📊 Dataset**](https://drive.google.com/drive/folders/1N7D4-6IutYD40v9lfXGSVbWrd47UdJEC) | [**🔑 Model**](https://drive.google.com/drive/folders/1A-8kZMvB_IWnnYxaI_KrKokZ0IcUC_n0?usp=sharing)
 ### 📝 Introduction
