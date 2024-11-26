@@ -128,4 +128,8 @@ If you find our GB-NeRF useful in your work, please consider citing it:
 
 
 
+https://github.com/user-attachments/assets/52ef32d9-3959-440c-82b4-995143b25ef9
+
+
+
 
