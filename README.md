@@ -61,6 +61,8 @@ Download the pretrained model from [Google Drive](https://drive.google.com/drive
 
 Store the downloaded pretrained model in `DS_NeRF/guidance/ckpt_normalrgb_ps8_lr1e4_rank32_cprompt_caption`
 
+Then, you can use the following command to train NeRF:
+
 ```
 python run.py --config DS_NeRF/config/aconfig_1.txt
 ```
