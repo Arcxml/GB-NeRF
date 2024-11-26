@@ -1,0 +1,66 @@
+expname = 1
+datadir = ./data/1
+
+N_gt = 0
+debug = True
+basedir = ./a_logs_1_neg
+dataset_type = llff
+
+origin = True
+text = a stone park bench
+text_depth = a grasy scale image of park bench
+text_normal = a normal map of park bench
+
+
+
+negative_prompt = a box, oversaturated color, ugly, tiling, low quality, noisy, deformed, bad quality, out of focus
+
+
+is_normal_guidance = True
+normal_guidance_scale = 1.5
+normal_start = 500
+is_rgb_guidance = True
+rgb_guidance_scale = 7.5
+is_colla_guidance = False
+colla_guidance_scale = 7.5
+
+is_crop = False
+
+factor = 4
+no_tcnn = False
+
+N_rand = 1024
+N_samples = 64
+N_importance = 64
+
+use_viewdirs = True
+raw_noise_std =1e0
+
+colmap_depth = True
+depth_loss = True
+depth_lambda = 0.1
+
+no_ndc = True
+lindisp = True
+
+render_factor = 1
+i_feat = 1000000
+i_video = 10000
+feat_weight = 0.1
+i_weights = 10000
+
+lrate = 0.003
+lrate_decay = 10
+
+white_bkgd = True
+
+no_reload = False
+
+sds_loss = False
+sds_loss_weight = 0.0001
+
+first_stage = False
+second_stage = True
+normalmap_render_factor = 7
+model_path = "./DS_NeRF/guidance/ckpt_normalrgb_ps8_lr1e4_rank32_cprompt_caption/checkpoint-19000"
+N_iters = 10001
