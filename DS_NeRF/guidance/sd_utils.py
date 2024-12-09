@@ -6,7 +6,7 @@ import sys
 sys.path.append("..")
 from DS_NeRF.pipelines.stable_diffusion_inpainting_pipeline import StableDiffusionInpaintPipeline
 from diffusers.pipelines.stable_diffusion import StableDiffusionPipelineOutput
-from DS_NeRF.guidance.CLIPAway.model.clip_away import CLIPAway
+
 from diffusers.utils.import_utils import is_xformers_available
 from os.path import isfile
 from pathlib import Path
@@ -100,17 +100,7 @@ class StableDiffusion(nn.Module):
             self.pipe.load_lora_weights(model_path, weight_name="pytorch_lora_weights.safetensors")
 
         self.pipe.to("cuda")    
-        if use_clipaway:
-            clipaway = CLIPAway(
-                sd_pipe=self.pipe, 
-                image_encoder_path="/gdata2/zhangml/projects/MVIP-NeRF-main/DS_NeRF/guidance/CLIPAway/ckpts/IPAdapter/image_encoder",
-                ip_ckpt="/gdata2/zhangml/projects/MVIP-NeRF-main/DS_NeRF/guidance/CLIPAway/ckpts/IPAdapter/ip-adapter_sd15.bin", 
-                alpha_clip_path="/gdata2/zhangml/projects/MVIP-NeRF-main/DS_NeRF/guidance/CLIPAway/ckpts/AlphaCLIP/clip_l14_grit+mim_fultune_6xe.pth", 
-                config=clipaway_config, 
-                alpha_clip_id="ViT-L/14", 
-                device=device, 
-                num_tokens=4
-            )
+        
 
 
 
